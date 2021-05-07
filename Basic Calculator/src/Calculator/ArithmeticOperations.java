@@ -3,19 +3,19 @@ package Calculator;
 public class ArithmeticOperations {
 	
 	
-	public static double addition(double valOne, double valTwo) {
+	public static double add(double valOne, double valTwo) {
 		return valOne + valTwo;
 	}
 	
-	public static double subtraction(double valOne, double valTwo) {
+	public static double subtract(double valOne, double valTwo) {
 		return valOne - valTwo;
 	}
 	
-	public static double multiplication(double valOne, double valTwo) {
+	public static double multiply(double valOne, double valTwo) {
 		return valOne * valTwo;
 	}
 	
-	public static double division(double valOne, double valTwo) {
+	public static double divide(double valOne, double valTwo) {
 		return valOne / valTwo;
 	}
 	
@@ -36,16 +36,16 @@ public class ArithmeticOperations {
 		
 		if (valOne.contains("+")) {
 			double[] values = convertValuesToDoubles(valOne, valTwo);
-			result = addition(values[0], values[1]);
+			result = add(values[0], values[1]);
 		} else if (valOne.contains("-")) {
 			double[] values = convertValuesToDoubles(valOne, valTwo);
-			result = subtraction(values[0], values[1]);
+			result = subtract(values[0], values[1]);
 		} else if (valOne.contains("*")) {
 			double[] values = convertValuesToDoubles(valOne, valTwo);
-			result = multiplication(values[0], values[1]);
+			result = multiply(values[0], values[1]);
 		} else if (valOne.contains("/")) {
 			double[] values = convertValuesToDoubles(valOne, valTwo);
-			result = division(values[0], values[1]);
+			result = divide(values[0], values[1]);
 		}
 		
 		return result;
