@@ -7,3 +7,6 @@ This is a simple calculator built in Java which allows you to perform the follow
 * Multiplication.
 * Division.
 
+#Tech Stack
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
